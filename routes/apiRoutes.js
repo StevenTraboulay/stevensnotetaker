@@ -22,7 +22,7 @@ router.post('/notes', (req,res) => {
 });
 
 //deleting the notes  need to conect to ID of it
-router.delete('notes/:id', (req, res) => {
+router.delete('/notes/:id', (req, res) => {
     store
     .removeNote(req.params.id)
     .then(() => res.json({ ok: true }))
