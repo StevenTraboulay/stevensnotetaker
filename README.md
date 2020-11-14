@@ -29,6 +29,8 @@ For testing purposes you can run jest, however for core functionality you will r
 ## Usage
 
 keep the private files private
+launch via the following:
+1. https://dashboard.heroku.com/apps/stevenotetaker
 
 ## License
       This project is licensed under the None license.
